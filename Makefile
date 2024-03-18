@@ -19,3 +19,4 @@ $(SOFT_DIR)/softfloat.a:
 clean:
 	$(MAKE) -C $(TEST_DIR) clean
 	$(MAKE) -C $(SOFT_DIR) clean
+	rm -rf $(BUILD_DIR)
